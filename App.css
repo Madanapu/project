@@ -1,0 +1,202 @@
+.bg{
+  width: 100%;
+  height:100vh;
+  background-image: url('./components/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.mypic{
+  background-image: url('./components/mypic.jpeg');
+  width: 200px;
+  height:300px;
+  background-size: contain;
+  margin-top: -550px;
+  background-position: center;
+  margin-left: 500px;
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  
+}
+#hello{
+  color: white;
+  margin-left: 500px;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+#hello span{
+  color: rgb(243, 112, 134);
+}
+#frontend{
+  color: white;
+  margin-left: 450px;
+  font-size: 30px;
+  font-family:Georgia, 'Times New Roman', Times, se
+}
+#workbtn{
+  color: white;
+  margin-left: 500px;
+  background-color: transparent;
+  padding:15px 50px;
+  border-color: beige;
+  font-size: 15px;
+  font-family:'Courier New', Courier, monospace;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: element();
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 1em;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.aboutsec{
+  color:violet;
+  background-image: element();
+  margin-left: 800px;
+  margin-top: 100px;
+  font-weight: 0px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  border: solid blue 1px;
+  background: bisque;
+  margin-right: 30px;
+  padding-left: 20px;
+}
+.education{
+  color:black;
+
+  font-weight: 0px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  border: solid burlywood;
+  margin-left: 40px;
+  padding-left:20px;
+  margin-right: 800px;
+  box-shadow:50px;
+  margin-bottom: 30px;
+  background:burlywood;
+  padding: 20px;
+  border-radius: 20px;
+  
+}
+#educate{
+  text-decoration: underline;
+}
+.skillbox{
+  display: inline-block;
+  margin: 50px;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 60px;
+  
+  
+
+}
+.skillcon{
+  background:rgb(90, 88, 88);
+  font-family:cursive;
+  text-align: center;
+  margin-top: -30px;
+  
+}
+.project{
+  color:black;
+  background-color: blanchedalmond;
+  font-family: cursive;
+  text-decoration:underline;
+  margin-left: 50px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+#myskills{
+  font-family: cursive;
+  text-decoration:underline;
+  margin-left: 50px;
+  padding-top: 20px;
+  font-size: 35px;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin: 20px;
+  flex: 1;
+}
+
+.footer-section h3 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.footer-section p, .footer-section ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin: 10px 0;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media li {
+  margin: 0 10px;
+}
+
+.social-media a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+  transition: color 0.3s;
+}
+
+.social-media a:hover {
+  color: #f0f0f0;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+.skill-icon{
+  height: 200px;
+}
+.ecomcenter{
+  justify-content: center;
+}
